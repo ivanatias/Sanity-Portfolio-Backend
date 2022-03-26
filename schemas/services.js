@@ -17,6 +17,15 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      name: "serviceIcon",
+      title: "Service Icon",
+      type: "image",
+      validation: (Rule) => Rule.required(),
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: "imgUrl",
       title: "ImageURL",
       type: "image",
